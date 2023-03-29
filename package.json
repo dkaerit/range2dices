@@ -2,6 +2,7 @@
   "name": "range-to-dices",
   "version": "0.0.0",
   "scripts": {
+    "serve": "vite",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview --port 5050",

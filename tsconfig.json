@@ -2,12 +2,18 @@
   "extends": "@vue/tsconfig/tsconfig.web.json",
   "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
   "compilerOptions": {
+    "isolatedModules": false,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
       "@components/*": ["./src/components/*"],
-      "@styles/*": ["./src/styles/*"]
-    }
+      "@styles/*": ["./src/styles/*"],
+      "@modules/*": ["./src/modules/*"]
+    },
+    "target": "es5",
+    "lib": [
+      "es2019"
+    ]
   },
 
   "references": [

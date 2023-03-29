@@ -1,12 +1,16 @@
-<script setup lang="ts">
-import Panel from '@/components/Panel.vue'
-
+<script setup lang="ts"> // @ts-nocheck
+import Panel from '@/components/Panel.component.vue'
 </script>
+
+
+
 
 <template>
   <Panel />
 </template>
 
-<style lang="scss">
 
+
+
+<style lang="scss">
 </style>
